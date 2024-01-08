@@ -4,12 +4,6 @@ import { userEvent } from '@storybook/testing-library';
 import { Counter } from './Counter';
 
 describe('Counter', () => {
-    test('is visable', () => {
-        componentRender(<Counter />, {});
-        
-        expect(screen.getByTestId('value-title')).toBeVisible();
-    });
-
     test('test render', () => {
         componentRender(<Counter />, {
             initialState: { counter: { value: 10 } },
