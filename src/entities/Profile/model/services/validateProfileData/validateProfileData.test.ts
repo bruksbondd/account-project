@@ -2,7 +2,7 @@ import { Country } from 'entities/Country';
 import { Currency } from 'entities/Currency';
 
 import { validateProfileData } from './validateProfileData';
-import { ValidateProfileError } from 'features/editableProfileCard/model/types/editableProfileCardSchema';
+import { ValidateProfileError } from 'features/editableProfileCard/model/consts/consts';
 
 const data = {
     username: 'admin',
