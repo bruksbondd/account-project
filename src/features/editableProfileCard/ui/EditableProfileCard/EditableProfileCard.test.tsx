@@ -15,7 +15,7 @@ const profile: Profile = {
     age: 465,
     currency: Currency.USD,
     country: Country.Kazakhstan,
-    city: 'Moscow',
+    city: 'Kiev',
     username: 'admin213',
 };
 

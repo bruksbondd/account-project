@@ -17,8 +17,10 @@ describe('Пользователь заходит на страницу проф
     it('И редактирует его', () => {
         const newName = 'new';
         const newLastname = 'lastname';
+        const newCity = 'Kiev';
         cy.updateProfile(newName, newLastname);
         cy.getByTestId('ProfileCard.firstname').should('have.value', newName);
         cy.getByTestId('ProfileCard.lastname').should('have.value', newLastname);
+        cy.getByTestId('ProfileCard.city').should('have.value', newCity);
     });
 });
