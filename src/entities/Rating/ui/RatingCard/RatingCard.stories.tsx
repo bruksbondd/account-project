@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { RatingCard } from './RatingCard';
 
 export default {
-    title: 'entities/Rating/RatingCard',
+    title: 'shared/RatingCard',
     component: RatingCard,
     argTypes: {
         backgroundColor: { control: 'color' },
