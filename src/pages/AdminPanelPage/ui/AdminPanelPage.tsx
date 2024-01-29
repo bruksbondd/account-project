@@ -1,12 +1,12 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Page } from '@/widgets/Page/Page';
+import { Page } from '@/widgets/Page';
 
 const AdminPanelPage = () => {
     const { t } = useTranslation('about');
 
     return (
-        <Page>
+        <Page data-testid="AdminPanelPage">
             {t('Админ панель')}
         </Page>
     );
